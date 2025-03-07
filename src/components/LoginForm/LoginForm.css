@@ -15,14 +15,19 @@
     margin-bottom: 40px;
 }
 
-.wrapper .input-box {
+.wrapper h3 {
+    font-size: 16px;
+    margin-bottom: 5px;
+}
+
+.wrapper .input-box-login {
     position: relative;
     width: 100%;
     height: 50px;
     margin: 20px 0;
 }
 
-.input-box input {
+.input-box-login input {
     width: 100%;
     height: 100%;
     background: transparent;
@@ -35,15 +40,15 @@
     transition: .2s ease-in-out;
 }
 
-.input-box input::placeholder {
+.input-box-login input::placeholder {
     color: #FFF;
 }
 
-.input-box input:focus{
+.input-box-login input:focus{
     border-color: rgb(255, 23, 162);
 }
 
-.input-box .icon {
+.input-box-login .icon {
     position: absolute;
     right: 20px;
     top: 50%;

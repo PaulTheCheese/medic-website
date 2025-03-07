@@ -4,9 +4,16 @@ import "./SignUpForm.css";
 
 export const SignUpForm = () => {
   return (
-    <div className="wrapper">
+    <div className="wrapper-signup">
       <form>
         <h1>Sign Up</h1>
+        <h3>Please fill in this form to create an account</h3>
+        <div className="input-box">
+          <input type="text" placeholder="First Name" required />
+        </div>
+        <div className="input-box">
+          <input type="text" placeholder="Last Name" required />
+        </div>
         <div className="input-box">
           <input type="text" placeholder="Username" required />
         </div>
